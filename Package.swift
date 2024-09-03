@@ -17,6 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "Chameleon",
-            dependencies: [])
+            dependencies: [],
+        path: "Pod/Classes/Objective-C")
     ]
 )
