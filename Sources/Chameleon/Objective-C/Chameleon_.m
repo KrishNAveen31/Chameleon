@@ -405,7 +405,7 @@
         }
     }
     
-    [[UINavigationBar appearance] setBarTintColor:primaryColor];
+    [[UINavigationBar appearance] setBarTintColor: [UIColor flatPinkColor]];
     [[UINavigationBar appearance] setTintColor:contentColor];
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:contentColor}];
     [[UINavigationBar appearance] setShadowImage:[UIImage new]];
