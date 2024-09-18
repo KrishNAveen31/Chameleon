@@ -28,37 +28,38 @@
 		247EB8B11BB61EB3009B4904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247EB8B01BB61EB3009B4904 /* Assets.xcassets */; };
 		247EB8B41BB61EB3009B4904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247EB8B21BB61EB3009B4904 /* LaunchScreen.storyboard */; };
 		247EB8B91BB61F76009B4904 /* Chameleon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240093F81BB4517400932727 /* Chameleon.framework */; };
-		8B0432652C9AB28900046C5B /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432482C9AB28800046C5B /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0432672C9AB28900046C5B /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04324A2C9AB28800046C5B /* UIView+ChameleonPrivate.m */; };
-		8B0432682C9AB28900046C5B /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B04324B2C9AB28800046C5B /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0432692C9AB28900046C5B /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04324C2C9AB28800046C5B /* Chameleon_.m */; };
-		8B04326A2C9AB28900046C5B /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B04324D2C9AB28800046C5B /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B04326B2C9AB28900046C5B /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B04324E2C9AB28800046C5B /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B04326C2C9AB28900046C5B /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B04324F2C9AB28800046C5B /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B04326D2C9AB28900046C5B /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432502C9AB28800046C5B /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B04326E2C9AB28900046C5B /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432512C9AB28800046C5B /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B04326F2C9AB28900046C5B /* UIApplication+CHSharedApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432522C9AB28800046C5B /* UIApplication+CHSharedApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0432702C9AB28900046C5B /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0432532C9AB28800046C5B /* UIButton+Chameleon.m */; };
-		8B0432712C9AB28900046C5B /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432542C9AB28800046C5B /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0432722C9AB28900046C5B /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0432552C9AB28800046C5B /* UIColor+ChameleonPrivate.m */; };
-		8B0432732C9AB28900046C5B /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432562C9AB28800046C5B /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0432742C9AB28900046C5B /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0432572C9AB28800046C5B /* UILabel+Chameleon.m */; };
-		8B0432752C9AB28900046C5B /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432582C9AB28900046C5B /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B0432762C9AB28900046C5B /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432592C9AB28900046C5B /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0432772C9AB28900046C5B /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04325A2C9AB28900046C5B /* ChameleonConstants.m */; };
-		8B0432782C9AB28900046C5B /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B04325B2C9AB28900046C5B /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0432792C9AB28900046C5B /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04325C2C9AB28900046C5B /* UIAppearance+Swift.m */; };
 		8B04327A2C9AB28900046C5B /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04325D2C9AB28900046C5B /* UIImage+ChameleonPrivate.m */; };
 		8B04327B2C9AB28900046C5B /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04325E2C9AB28900046C5B /* NSArray+Chameleon.m */; };
 		8B04327C2C9AB28900046C5B /* UIApplication+CHSharedApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04325F2C9AB28900046C5B /* UIApplication+CHSharedApplication.m */; };
-		8B04327D2C9AB28900046C5B /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432602C9AB28900046C5B /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B04327E2C9AB28900046C5B /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432612C9AB28900046C5B /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B04327F2C9AB28900046C5B /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0432622C9AB28900046C5B /* UIColor+Chameleon.m */; };
 		8B0432802C9AB28900046C5B /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0432632C9AB28900046C5B /* UINavigationController+Chameleon.m */; };
 		8B0432812C9AB28900046C5B /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0432642C9AB28900046C5B /* UIViewController+Chameleon.m */; };
 		8B0432882C9AB6EC00046C5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0432872C9AB6EC00046C5B /* UIKit.framework */; };
-		8B0432952C9AD9F600046C5B /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432942C9AD9F600046C5B /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0432972C9ADC0100046C5B /* Chameleon-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432962C9ADBF700046C5B /* Chameleon-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432A42C9AE21300046C5B /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432982C9AE21200046C5B /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432A52C9AE21300046C5B /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432992C9AE21200046C5B /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432A62C9AE21300046C5B /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B04329A2C9AE21200046C5B /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432A72C9AE21300046C5B /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B04329B2C9AE21200046C5B /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432A82C9AE21300046C5B /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B04329C2C9AE21200046C5B /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432A92C9AE21300046C5B /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B04329D2C9AE21200046C5B /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432AA2C9AE21300046C5B /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B04329E2C9AE21200046C5B /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432AB2C9AE21300046C5B /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B04329F2C9AE21200046C5B /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432AC2C9AE21300046C5B /* UIApplication+CHSharedApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432A02C9AE21200046C5B /* UIApplication+CHSharedApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432AD2C9AE21300046C5B /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432A12C9AE21200046C5B /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432AE2C9AE21300046C5B /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432A22C9AE21200046C5B /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432AF2C9AE21300046C5B /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432A32C9AE21200046C5B /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432B02C9AE2AD00046C5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0432872C9AB6EC00046C5B /* UIKit.framework */; };
+		8B0432B32C9AE7B100046C5B /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432B12C9AE7B100046C5B /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432B42C9AE7B100046C5B /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432B22C9AE7B100046C5B /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432B62C9AE7D400046C5B /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432B52C9AE7D400046C5B /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432B82C9AE82F00046C5B /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432B72C9AE82E00046C5B /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,37 +151,37 @@
 		247EB8B31BB61EB3009B4904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		247EB8B51BB61EB3009B4904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B0432472C9AB25700046C5B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		8B0432482C9AB28800046C5B /* ChameleonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Sources/Chameleon/Objective-C/ChameleonMacros.h"; sourceTree = SOURCE_ROOT; };
 		8B04324A2C9AB28800046C5B /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Sources/Chameleon/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = SOURCE_ROOT; };
-		8B04324B2C9AB28800046C5B /* NSArray+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Sources/Chameleon/Objective-C/NSArray+Chameleon.h"; sourceTree = SOURCE_ROOT; };
 		8B04324C2C9AB28800046C5B /* Chameleon_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Sources/Chameleon/Objective-C/Chameleon_.m"; sourceTree = SOURCE_ROOT; };
-		8B04324D2C9AB28800046C5B /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Sources/Chameleon/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = SOURCE_ROOT; };
-		8B04324E2C9AB28800046C5B /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Sources/Chameleon/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = SOURCE_ROOT; };
-		8B04324F2C9AB28800046C5B /* UIButton+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Sources/Chameleon/Objective-C/UIButton+Chameleon.h"; sourceTree = SOURCE_ROOT; };
-		8B0432502C9AB28800046C5B /* ChameleonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Sources/Chameleon/Objective-C/ChameleonConstants.h"; sourceTree = SOURCE_ROOT; };
-		8B0432512C9AB28800046C5B /* UIAppearance+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Sources/Chameleon/Objective-C/UIAppearance+Swift.h"; sourceTree = SOURCE_ROOT; };
-		8B0432522C9AB28800046C5B /* UIApplication+CHSharedApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+CHSharedApplication.h"; path = "Sources/Chameleon/Objective-C/UIApplication+CHSharedApplication.h"; sourceTree = SOURCE_ROOT; };
 		8B0432532C9AB28800046C5B /* UIButton+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Sources/Chameleon/Objective-C/UIButton+Chameleon.m"; sourceTree = SOURCE_ROOT; };
-		8B0432542C9AB28800046C5B /* Chameleon_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Sources/Chameleon/Objective-C/Chameleon_.h"; sourceTree = SOURCE_ROOT; };
 		8B0432552C9AB28800046C5B /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Sources/Chameleon/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = SOURCE_ROOT; };
-		8B0432562C9AB28800046C5B /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Sources/Chameleon/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = SOURCE_ROOT; };
 		8B0432572C9AB28800046C5B /* UILabel+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Sources/Chameleon/Objective-C/UILabel+Chameleon.m"; sourceTree = SOURCE_ROOT; };
-		8B0432582C9AB28900046C5B /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Sources/Chameleon/Objective-C/UIColor+Chameleon.h"; sourceTree = SOURCE_ROOT; };
-		8B0432592C9AB28900046C5B /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Sources/Chameleon/Objective-C/UINavigationController+Chameleon.h"; sourceTree = SOURCE_ROOT; };
 		8B04325A2C9AB28900046C5B /* ChameleonConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Sources/Chameleon/Objective-C/ChameleonConstants.m"; sourceTree = SOURCE_ROOT; };
-		8B04325B2C9AB28900046C5B /* UILabel+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Sources/Chameleon/Objective-C/UILabel+Chameleon.h"; sourceTree = SOURCE_ROOT; };
 		8B04325C2C9AB28900046C5B /* UIAppearance+Swift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Sources/Chameleon/Objective-C/UIAppearance+Swift.m"; sourceTree = SOURCE_ROOT; };
 		8B04325D2C9AB28900046C5B /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Sources/Chameleon/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = SOURCE_ROOT; };
 		8B04325E2C9AB28900046C5B /* NSArray+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Sources/Chameleon/Objective-C/NSArray+Chameleon.m"; sourceTree = SOURCE_ROOT; };
 		8B04325F2C9AB28900046C5B /* UIApplication+CHSharedApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+CHSharedApplication.m"; path = "Sources/Chameleon/Objective-C/UIApplication+CHSharedApplication.m"; sourceTree = SOURCE_ROOT; };
-		8B0432602C9AB28900046C5B /* ChameleonEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Sources/Chameleon/Objective-C/ChameleonEnums.h"; sourceTree = SOURCE_ROOT; };
-		8B0432612C9AB28900046C5B /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Sources/Chameleon/Objective-C/UIViewController+Chameleon.h"; sourceTree = SOURCE_ROOT; };
 		8B0432622C9AB28900046C5B /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Sources/Chameleon/Objective-C/UIColor+Chameleon.m"; sourceTree = SOURCE_ROOT; };
 		8B0432632C9AB28900046C5B /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Sources/Chameleon/Objective-C/UINavigationController+Chameleon.m"; sourceTree = SOURCE_ROOT; };
 		8B0432642C9AB28900046C5B /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Sources/Chameleon/Objective-C/UIViewController+Chameleon.m"; sourceTree = SOURCE_ROOT; };
 		8B0432872C9AB6EC00046C5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8B0432942C9AD9F600046C5B /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = Sources/Chameleon/include/Chameleon.h; sourceTree = SOURCE_ROOT; };
 		8B0432962C9ADBF700046C5B /* Chameleon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chameleon-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B0432982C9AE21200046C5B /* UIAppearance+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Sources/Chameleon/include/UIAppearance+Swift.h"; sourceTree = SOURCE_ROOT; };
+		8B0432992C9AE21200046C5B /* UILabel+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Sources/Chameleon/include/UILabel+Chameleon.h"; sourceTree = SOURCE_ROOT; };
+		8B04329A2C9AE21200046C5B /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Sources/Chameleon/include/UIView+ChameleonPrivate.h"; sourceTree = SOURCE_ROOT; };
+		8B04329B2C9AE21200046C5B /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Sources/Chameleon/include/UIViewController+Chameleon.h"; sourceTree = SOURCE_ROOT; };
+		8B04329C2C9AE21200046C5B /* UIButton+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Sources/Chameleon/include/UIButton+Chameleon.h"; sourceTree = SOURCE_ROOT; };
+		8B04329D2C9AE21200046C5B /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Sources/Chameleon/include/UIImage+ChameleonPrivate.h"; sourceTree = SOURCE_ROOT; };
+		8B04329E2C9AE21200046C5B /* Chameleon_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = Sources/Chameleon/include/Chameleon_.h; sourceTree = SOURCE_ROOT; };
+		8B04329F2C9AE21200046C5B /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Sources/Chameleon/include/UIColor+ChameleonPrivate.h"; sourceTree = SOURCE_ROOT; };
+		8B0432A02C9AE21200046C5B /* UIApplication+CHSharedApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+CHSharedApplication.h"; path = "Sources/Chameleon/include/UIApplication+CHSharedApplication.h"; sourceTree = SOURCE_ROOT; };
+		8B0432A12C9AE21200046C5B /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Sources/Chameleon/include/UINavigationController+Chameleon.h"; sourceTree = SOURCE_ROOT; };
+		8B0432A22C9AE21200046C5B /* NSArray+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Sources/Chameleon/include/NSArray+Chameleon.h"; sourceTree = SOURCE_ROOT; };
+		8B0432A32C9AE21200046C5B /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Sources/Chameleon/include/UIColor+Chameleon.h"; sourceTree = SOURCE_ROOT; };
+		8B0432B12C9AE7B100046C5B /* ChameleonEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = Sources/Chameleon/include/ChameleonEnums.h; sourceTree = SOURCE_ROOT; };
+		8B0432B22C9AE7B100046C5B /* ChameleonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = Sources/Chameleon/include/ChameleonConstants.h; sourceTree = SOURCE_ROOT; };
+		8B0432B52C9AE7D400046C5B /* ChameleonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = Sources/Chameleon/include/ChameleonMacros.h; sourceTree = SOURCE_ROOT; };
+		8B0432B72C9AE82E00046C5B /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = Sources/Chameleon/include/Chameleon.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				247EB8B91BB61F76009B4904 /* Chameleon.framework in Frameworks */,
+				8B0432B02C9AE2AD00046C5B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,34 +303,34 @@
 			children = (
 				245936041BB4D62D00C30559 /* ChameleonShorthand.swift */,
 				8B0432962C9ADBF700046C5B /* Chameleon-Bridging-Header.h */,
-				8B0432942C9AD9F600046C5B /* Chameleon.h */,
-				8B0432542C9AB28800046C5B /* Chameleon_.h */,
+				8B0432B72C9AE82E00046C5B /* Chameleon.h */,
+				8B04329E2C9AE21200046C5B /* Chameleon_.h */,
+				8B0432A22C9AE21200046C5B /* NSArray+Chameleon.h */,
+				8B0432982C9AE21200046C5B /* UIAppearance+Swift.h */,
+				8B0432A02C9AE21200046C5B /* UIApplication+CHSharedApplication.h */,
+				8B04329C2C9AE21200046C5B /* UIButton+Chameleon.h */,
+				8B0432A32C9AE21200046C5B /* UIColor+Chameleon.h */,
+				8B04329F2C9AE21200046C5B /* UIColor+ChameleonPrivate.h */,
+				8B04329D2C9AE21200046C5B /* UIImage+ChameleonPrivate.h */,
+				8B0432992C9AE21200046C5B /* UILabel+Chameleon.h */,
+				8B0432A12C9AE21200046C5B /* UINavigationController+Chameleon.h */,
+				8B04329A2C9AE21200046C5B /* UIView+ChameleonPrivate.h */,
+				8B04329B2C9AE21200046C5B /* UIViewController+Chameleon.h */,
+				8B0432B22C9AE7B100046C5B /* ChameleonConstants.h */,
+				8B0432B12C9AE7B100046C5B /* ChameleonEnums.h */,
+				8B0432B52C9AE7D400046C5B /* ChameleonMacros.h */,
 				8B04324C2C9AB28800046C5B /* Chameleon_.m */,
-				8B0432502C9AB28800046C5B /* ChameleonConstants.h */,
 				8B04325A2C9AB28900046C5B /* ChameleonConstants.m */,
-				8B0432602C9AB28900046C5B /* ChameleonEnums.h */,
-				8B0432482C9AB28800046C5B /* ChameleonMacros.h */,
-				8B04324B2C9AB28800046C5B /* NSArray+Chameleon.h */,
 				8B04325E2C9AB28900046C5B /* NSArray+Chameleon.m */,
-				8B0432512C9AB28800046C5B /* UIAppearance+Swift.h */,
 				8B04325C2C9AB28900046C5B /* UIAppearance+Swift.m */,
-				8B0432522C9AB28800046C5B /* UIApplication+CHSharedApplication.h */,
 				8B04325F2C9AB28900046C5B /* UIApplication+CHSharedApplication.m */,
-				8B04324F2C9AB28800046C5B /* UIButton+Chameleon.h */,
 				8B0432532C9AB28800046C5B /* UIButton+Chameleon.m */,
-				8B0432582C9AB28900046C5B /* UIColor+Chameleon.h */,
 				8B0432622C9AB28900046C5B /* UIColor+Chameleon.m */,
-				8B04324D2C9AB28800046C5B /* UIColor+ChameleonPrivate.h */,
 				8B0432552C9AB28800046C5B /* UIColor+ChameleonPrivate.m */,
-				8B0432562C9AB28800046C5B /* UIImage+ChameleonPrivate.h */,
 				8B04325D2C9AB28900046C5B /* UIImage+ChameleonPrivate.m */,
-				8B04325B2C9AB28900046C5B /* UILabel+Chameleon.h */,
 				8B0432572C9AB28800046C5B /* UILabel+Chameleon.m */,
-				8B0432592C9AB28900046C5B /* UINavigationController+Chameleon.h */,
 				8B0432632C9AB28900046C5B /* UINavigationController+Chameleon.m */,
-				8B04324E2C9AB28800046C5B /* UIView+ChameleonPrivate.h */,
 				8B04324A2C9AB28800046C5B /* UIView+ChameleonPrivate.m */,
-				8B0432612C9AB28900046C5B /* UIViewController+Chameleon.h */,
 				8B0432642C9AB28900046C5B /* UIViewController+Chameleon.m */,
 				240093FD1BB4517400932727 /* Info.plist */,
 			);
@@ -363,23 +365,23 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B04326C2C9AB28900046C5B /* UIButton+Chameleon.h in Headers */,
+				8B0432AE2C9AE21300046C5B /* NSArray+Chameleon.h in Headers */,
 				8B0432972C9ADC0100046C5B /* Chameleon-Bridging-Header.h in Headers */,
-				8B04326E2C9AB28900046C5B /* UIAppearance+Swift.h in Headers */,
-				8B0432712C9AB28900046C5B /* Chameleon_.h in Headers */,
-				8B04326A2C9AB28900046C5B /* UIColor+ChameleonPrivate.h in Headers */,
-				8B0432682C9AB28900046C5B /* NSArray+Chameleon.h in Headers */,
-				8B0432782C9AB28900046C5B /* UILabel+Chameleon.h in Headers */,
-				8B04326F2C9AB28900046C5B /* UIApplication+CHSharedApplication.h in Headers */,
-				8B0432752C9AB28900046C5B /* UIColor+Chameleon.h in Headers */,
-				8B0432762C9AB28900046C5B /* UINavigationController+Chameleon.h in Headers */,
-				8B04326D2C9AB28900046C5B /* ChameleonConstants.h in Headers */,
-				8B04327E2C9AB28900046C5B /* UIViewController+Chameleon.h in Headers */,
-				8B04327D2C9AB28900046C5B /* ChameleonEnums.h in Headers */,
-				8B0432732C9AB28900046C5B /* UIImage+ChameleonPrivate.h in Headers */,
-				8B0432952C9AD9F600046C5B /* Chameleon.h in Headers */,
-				8B04326B2C9AB28900046C5B /* UIView+ChameleonPrivate.h in Headers */,
-				8B0432652C9AB28900046C5B /* ChameleonMacros.h in Headers */,
+				8B0432AD2C9AE21300046C5B /* UINavigationController+Chameleon.h in Headers */,
+				8B0432A62C9AE21300046C5B /* UIView+ChameleonPrivate.h in Headers */,
+				8B0432AB2C9AE21300046C5B /* UIColor+ChameleonPrivate.h in Headers */,
+				8B0432AA2C9AE21300046C5B /* Chameleon_.h in Headers */,
+				8B0432AF2C9AE21300046C5B /* UIColor+Chameleon.h in Headers */,
+				8B0432A72C9AE21300046C5B /* UIViewController+Chameleon.h in Headers */,
+				8B0432A42C9AE21300046C5B /* UIAppearance+Swift.h in Headers */,
+				8B0432B42C9AE7B100046C5B /* ChameleonConstants.h in Headers */,
+				8B0432B32C9AE7B100046C5B /* ChameleonEnums.h in Headers */,
+				8B0432A92C9AE21300046C5B /* UIImage+ChameleonPrivate.h in Headers */,
+				8B0432B62C9AE7D400046C5B /* ChameleonMacros.h in Headers */,
+				8B0432B82C9AE82F00046C5B /* Chameleon.h in Headers */,
+				8B0432A52C9AE21300046C5B /* UILabel+Chameleon.h in Headers */,
+				8B0432AC2C9AE21300046C5B /* UIApplication+CHSharedApplication.h in Headers */,
+				8B0432A82C9AE21300046C5B /* UIButton+Chameleon.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,6 +704,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.viccalexander.ChameleonDemo-Objc.ChameleonExtension-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -717,6 +724,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.viccalexander.ChameleonDemo-Objc.ChameleonExtension-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -732,8 +744,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.viccalexander.ChameleonDemo.ChameleonExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -749,7 +766,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.viccalexander.ChameleonDemo.ChameleonExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -764,7 +786,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.viccalexander.ChameleonDemo-Objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -779,7 +806,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.viccalexander.ChameleonDemo-Objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -942,7 +974,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viccalexander.ChameleonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -956,7 +993,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viccalexander.ChameleonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
