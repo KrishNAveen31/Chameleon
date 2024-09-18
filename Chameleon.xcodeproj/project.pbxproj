@@ -58,6 +58,7 @@
 		8B0432812C9AB28900046C5B /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0432642C9AB28900046C5B /* UIViewController+Chameleon.m */; };
 		8B0432882C9AB6EC00046C5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0432872C9AB6EC00046C5B /* UIKit.framework */; };
 		8B0432952C9AD9F600046C5B /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432942C9AD9F600046C5B /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0432972C9ADC0100046C5B /* Chameleon-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432962C9ADBF700046C5B /* Chameleon-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,6 +180,7 @@
 		8B0432642C9AB28900046C5B /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Sources/Chameleon/Objective-C/UIViewController+Chameleon.m"; sourceTree = SOURCE_ROOT; };
 		8B0432872C9AB6EC00046C5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8B0432942C9AD9F600046C5B /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = Sources/Chameleon/include/Chameleon.h; sourceTree = SOURCE_ROOT; };
+		8B0432962C9ADBF700046C5B /* Chameleon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chameleon-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,6 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				245936041BB4D62D00C30559 /* ChameleonShorthand.swift */,
+				8B0432962C9ADBF700046C5B /* Chameleon-Bridging-Header.h */,
 				8B0432942C9AD9F600046C5B /* Chameleon.h */,
 				8B0432542C9AB28800046C5B /* Chameleon_.h */,
 				8B04324C2C9AB28800046C5B /* Chameleon_.m */,
@@ -361,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B04326C2C9AB28900046C5B /* UIButton+Chameleon.h in Headers */,
+				8B0432972C9ADC0100046C5B /* Chameleon-Bridging-Header.h in Headers */,
 				8B04326E2C9AB28900046C5B /* UIAppearance+Swift.h in Headers */,
 				8B0432712C9AB28900046C5B /* Chameleon_.h in Headers */,
 				8B04326A2C9AB28900046C5B /* UIColor+ChameleonPrivate.h in Headers */,
