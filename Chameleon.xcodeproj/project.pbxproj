@@ -56,8 +56,8 @@
 		8B04327F2C9AB28900046C5B /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0432622C9AB28900046C5B /* UIColor+Chameleon.m */; };
 		8B0432802C9AB28900046C5B /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0432632C9AB28900046C5B /* UINavigationController+Chameleon.m */; };
 		8B0432812C9AB28900046C5B /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0432642C9AB28900046C5B /* UIViewController+Chameleon.m */; };
-		8B0432852C9AB5E100046C5B /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432842C9AB5E100046C5B /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0432882C9AB6EC00046C5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0432872C9AB6EC00046C5B /* UIKit.framework */; };
+		8B04328F2C9AD43F00046C5B /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B04328E2C9AD43F00046C5B /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -177,8 +177,8 @@
 		8B0432622C9AB28900046C5B /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Sources/Chameleon/Objective-C/UIColor+Chameleon.m"; sourceTree = SOURCE_ROOT; };
 		8B0432632C9AB28900046C5B /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Sources/Chameleon/Objective-C/UINavigationController+Chameleon.m"; sourceTree = SOURCE_ROOT; };
 		8B0432642C9AB28900046C5B /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Sources/Chameleon/Objective-C/UIViewController+Chameleon.m"; sourceTree = SOURCE_ROOT; };
-		8B0432842C9AB5E100046C5B /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Sources/Chameleon/Objective-C/Chameleon.h"; sourceTree = SOURCE_ROOT; };
 		8B0432872C9AB6EC00046C5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8B04328E2C9AD43F00046C5B /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = Sources/Chameleon/include/Chameleon.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,7 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				245936041BB4D62D00C30559 /* ChameleonShorthand.swift */,
-				8B0432842C9AB5E100046C5B /* Chameleon.h */,
+				8B04328E2C9AD43F00046C5B /* Chameleon.h */,
 				8B0432542C9AB28800046C5B /* Chameleon_.h */,
 				8B04324C2C9AB28800046C5B /* Chameleon_.m */,
 				8B0432502C9AB28800046C5B /* ChameleonConstants.h */,
@@ -373,7 +373,7 @@
 				8B04327E2C9AB28900046C5B /* UIViewController+Chameleon.h in Headers */,
 				8B04327D2C9AB28900046C5B /* ChameleonEnums.h in Headers */,
 				8B0432732C9AB28900046C5B /* UIImage+ChameleonPrivate.h in Headers */,
-				8B0432852C9AB5E100046C5B /* Chameleon.h in Headers */,
+				8B04328F2C9AD43F00046C5B /* Chameleon.h in Headers */,
 				8B04326B2C9AB28900046C5B /* UIView+ChameleonPrivate.h in Headers */,
 				8B0432652C9AB28900046C5B /* ChameleonMacros.h in Headers */,
 			);
