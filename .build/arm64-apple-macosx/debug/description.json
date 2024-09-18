@@ -1,0 +1,230 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/ChameleonPackageTests.xctest/Contents/MacOS/ChameleonPackageTests",
+      "productName" : "ChameleonPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.ChameleonTests-debug.module" : {
+      "executable" : "/Applications/Xcode 15.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/Tests/ChameleonTests/ChameleonTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/Chameleon.build/Objective-C/ChameleonConstants.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/Chameleon.build/Objective-C/Chameleon_.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/Chameleon.build/Objective-C/NSArray+Chameleon.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/Chameleon.build/Objective-C/UIAppearance+Swift.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/Chameleon.build/Objective-C/UIApplication+CHSharedApplication.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/Chameleon.build/Objective-C/UIButton+Chameleon.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/Chameleon.build/Objective-C/UIColor+Chameleon.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/Chameleon.build/Objective-C/UIColor+ChameleonPrivate.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/Chameleon.build/Objective-C/UIImage+ChameleonPrivate.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/Chameleon.build/Objective-C/UILabel+Chameleon.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/Chameleon.build/Objective-C/UINavigationController+Chameleon.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/Chameleon.build/Objective-C/UIView+ChameleonPrivate.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/Chameleon.build/Objective-C/UIViewController+Chameleon.m.o"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ChameleonTests",
+      "moduleOutputPath" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/ChameleonTests.swiftmodule",
+      "objects" : [
+        "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/ChameleonTests.build/ChameleonTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/Chameleon.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/Sources/Chameleon/include",
+        "-module-cache-path",
+        "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode 15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+        "-F",
+        "/Applications/Xcode 15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode 15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode 15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode 15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode 15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-package-name",
+        "chameleon"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/ChameleonTests.build/ChameleonTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/ChameleonTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/Tests/ChameleonTests/ChameleonTests.swift"
+      ],
+      "tempsPath" : "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/ChameleonTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "ChameleonTests" : [
+      "/Applications/Xcode 15.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ChameleonTests",
+      "-package-name",
+      "chameleon",
+      "-incremental",
+      "-c",
+      "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/Tests/ChameleonTests/ChameleonTests.swift",
+      "-I",
+      "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-g",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/Chameleon.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/Sources/Chameleon/include",
+      "-module-cache-path",
+      "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode 15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+      "-F",
+      "/Applications/Xcode 15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode 15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode 15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode 15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode 15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-package-name",
+      "chameleon",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode 15.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Chameleon" : [
+
+    ],
+    "ChameleonTests" : [
+      "Chameleon"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  }
+}

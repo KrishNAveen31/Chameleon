@@ -1,0 +1,4 @@
+module Chameleon {
+    umbrella header "/Users/naveenkrishna.manda/Documents/GitHub/Chameleon/Sources/Chameleon/include/Chameleon.h"
+    export *
+}
