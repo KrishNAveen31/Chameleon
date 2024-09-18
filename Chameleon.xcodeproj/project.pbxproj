@@ -41,7 +41,6 @@
 		8B04327F2C9AB28900046C5B /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0432622C9AB28900046C5B /* UIColor+Chameleon.m */; };
 		8B0432802C9AB28900046C5B /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0432632C9AB28900046C5B /* UINavigationController+Chameleon.m */; };
 		8B0432812C9AB28900046C5B /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0432642C9AB28900046C5B /* UIViewController+Chameleon.m */; };
-		8B0432882C9AB6EC00046C5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0432872C9AB6EC00046C5B /* UIKit.framework */; };
 		8B0432972C9ADC0100046C5B /* Chameleon-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432962C9ADBF700046C5B /* Chameleon-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0432A42C9AE21300046C5B /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432982C9AE21200046C5B /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0432A52C9AE21300046C5B /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432992C9AE21200046C5B /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -55,7 +54,6 @@
 		8B0432AD2C9AE21300046C5B /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432A12C9AE21200046C5B /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0432AE2C9AE21300046C5B /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432A22C9AE21200046C5B /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0432AF2C9AE21300046C5B /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432A32C9AE21200046C5B /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B0432B02C9AE2AD00046C5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0432872C9AB6EC00046C5B /* UIKit.framework */; };
 		8B0432B32C9AE7B100046C5B /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432B12C9AE7B100046C5B /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0432B42C9AE7B100046C5B /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432B22C9AE7B100046C5B /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0432B62C9AE7D400046C5B /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0432B52C9AE7D400046C5B /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -213,7 +211,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B0432882C9AB6EC00046C5B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +219,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				247EB8B91BB61F76009B4904 /* Chameleon.framework in Frameworks */,
-				8B0432B02C9AE2AD00046C5B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
