@@ -57,6 +57,7 @@
 		8B04331A2C9C023400046C5B /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04330D2C9C023400046C5B /* UIColor+ChameleonPrivate.m */; };
 		8B04331B2C9C023400046C5B /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04330E2C9C023400046C5B /* UIColor+Chameleon.m */; };
 		8B04331C2C9C023400046C5B /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04330F2C9C023400046C5B /* UIImage+ChameleonPrivate.m */; };
+		8B04331E2C9C038400046C5B /* Chameleon-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B04331D2C9C038200046C5B /* Chameleon-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,7 +165,7 @@
 		8B0432D02C9BF59700046C5B /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Sources/Chameleon/include/UIView+ChameleonPrivate.h"; sourceTree = SOURCE_ROOT; };
 		8B0432D12C9BF59700046C5B /* ChameleonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = Sources/Chameleon/include/ChameleonConstants.h; sourceTree = SOURCE_ROOT; };
 		8B0432FC2C9BF6AA00046C5B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		8B0433022C9BFF9E00046C5B /* module.map.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.map.modulemap; path = Sources/Chameleon/include/module.map.modulemap; sourceTree = SOURCE_ROOT; };
+		8B0433022C9BFF9E00046C5B /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Sources/Chameleon/include/module.modulemap; sourceTree = SOURCE_ROOT; };
 		8B0433032C9C023300046C5B /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Sources/Chameleon/UIViewController+Chameleon.m"; sourceTree = SOURCE_ROOT; };
 		8B0433042C9C023300046C5B /* UIApplication+CHSharedApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+CHSharedApplication.m"; path = "Sources/Chameleon/UIApplication+CHSharedApplication.m"; sourceTree = SOURCE_ROOT; };
 		8B0433052C9C023400046C5B /* UILabel+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Sources/Chameleon/UILabel+Chameleon.m"; sourceTree = SOURCE_ROOT; };
@@ -178,6 +179,7 @@
 		8B04330D2C9C023400046C5B /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Sources/Chameleon/UIColor+ChameleonPrivate.m"; sourceTree = SOURCE_ROOT; };
 		8B04330E2C9C023400046C5B /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Sources/Chameleon/UIColor+Chameleon.m"; sourceTree = SOURCE_ROOT; };
 		8B04330F2C9C023400046C5B /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Sources/Chameleon/UIImage+ChameleonPrivate.m"; sourceTree = SOURCE_ROOT; };
+		8B04331D2C9C038200046C5B /* Chameleon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Chameleon-Bridging-Header.h"; path = "Sources/Chameleon/include/Chameleon-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,7 +297,8 @@
 			isa = PBXGroup;
 			children = (
 				245936041BB4D62D00C30559 /* ChameleonShorthand.swift */,
-				8B0433022C9BFF9E00046C5B /* module.map.modulemap */,
+				8B0433022C9BFF9E00046C5B /* module.modulemap */,
+				8B04331D2C9C038200046C5B /* Chameleon-Bridging-Header.h */,
 				8B0432CA2C9BF59700046C5B /* Chameleon_.h */,
 				8B0432C72C9BF59700046C5B /* Chameleon.h */,
 				8B0432D12C9BF59700046C5B /* ChameleonConstants.h */,
@@ -351,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B0432D82C9BF59700046C5B /* ChameleonEnums.h in Headers */,
+				8B04331E2C9C038400046C5B /* Chameleon-Bridging-Header.h in Headers */,
 				8B0432D52C9BF59700046C5B /* NSArray+Chameleon.h in Headers */,
 				8B0432E02C9BF59700046C5B /* UIView+ChameleonPrivate.h in Headers */,
 				8B0432E12C9BF59700046C5B /* ChameleonConstants.h in Headers */,
@@ -719,6 +723,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Chameleon-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -735,6 +740,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.viccalexander.ChameleonDemo.ChameleonExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Chameleon-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
