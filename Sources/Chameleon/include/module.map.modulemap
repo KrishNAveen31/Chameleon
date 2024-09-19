@@ -1,0 +1,11 @@
+//
+//  module.map.modulemap
+//  Chameleon
+//
+//  Created by Naveenkrishna Manda on 19/09/24.
+//  Copyright © 2024 Vicc Alexander. All rights reserved.
+//
+
+module Chameleon {
+    header "Chameleon.h"
+}

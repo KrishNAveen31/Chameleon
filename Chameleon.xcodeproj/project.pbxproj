@@ -177,6 +177,7 @@
 		8B0432ED2C9BF5A500046C5B /* UIAppearance+Swift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Sources/Chameleon/Objective-C/UIAppearance+Swift.m"; sourceTree = SOURCE_ROOT; };
 		8B0432EE2C9BF5A500046C5B /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Sources/Chameleon/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = SOURCE_ROOT; };
 		8B0432FC2C9BF6AA00046C5B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		8B0433022C9BFF9E00046C5B /* module.map.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.map.modulemap; path = Sources/Chameleon/include/module.map.modulemap; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +295,7 @@
 			isa = PBXGroup;
 			children = (
 				245936041BB4D62D00C30559 /* ChameleonShorthand.swift */,
+				8B0433022C9BFF9E00046C5B /* module.map.modulemap */,
 				8B0432CA2C9BF59700046C5B /* Chameleon_.h */,
 				8B0432C72C9BF59700046C5B /* Chameleon.h */,
 				8B0432D12C9BF59700046C5B /* ChameleonConstants.h */,
