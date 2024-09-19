@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Chameleon",
     platforms: [
-        .iOS(.v15)  // Ensure that iOS is defined here
+        .iOS(.v14)  // Ensure that iOS is defined here
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
