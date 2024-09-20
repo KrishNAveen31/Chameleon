@@ -404,11 +404,16 @@
             break;
         }
     }
+    UINavigationBarAppearance *appearance = [[UINavigationBarAppearance alloc] init];
+    appearance.backgroundColor = primaryColor;
+    [appearance setTitleTextAttributes:@{NSForegroundColorAttributeName:contentColor}];
+    [appearance setShadowImage:[UIImage new]];
     
-    [[UINavigationBar appearance] setBarTintColor:primaryColor];
-    [[UINavigationBar appearance] setTintColor:contentColor];
-    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:contentColor}];
-    [[UINavigationBar appearance] setShadowImage:[UIImage new]];
+    [[UINavigationBar appearance] setStandardAppearance: appearance];
+    [[UINavigationBar appearance] setScrollEdgeAppearance: appearance];
+//    [[UINavigationBar appearance] setTintColor:contentColor];
+//    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:contentColor}];
+//    [[UINavigationBar appearance] setShadowImage:[UIImage new]];
     //    [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
 }
 
