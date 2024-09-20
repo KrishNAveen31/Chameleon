@@ -406,26 +406,26 @@
     }
     UINavigationBarAppearance *appearance = [[UINavigationBarAppearance alloc] init];
     appearance.backgroundColor = primaryColor;
-    [appearance setTitleTextAttributes:@{NSForegroundColorAttributeName:contentColor}];
+    [appearance setTitleTextAttributes:@{NSForegroundColorAttributeName: contentColor}];
     [appearance setShadowImage:[UIImage new]];
     
+    [[UINavigationBar appearance] setTintColor:contentColor];
     [[UINavigationBar appearance] setStandardAppearance: appearance];
     [[UINavigationBar appearance] setScrollEdgeAppearance: appearance];
-//    [[UINavigationBar appearance] setTintColor:contentColor];
-//    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:contentColor}];
-//    [[UINavigationBar appearance] setShadowImage:[UIImage new]];
-    //    [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
 }
 
 + (void)customizeNavigationBarWithBarColor:(UIColor *)barColor
                                  textColor:(UIColor *)textColor
                                buttonColor:(UIColor *)buttonColor {
     
-    [[UINavigationBar appearance] setBarTintColor:barColor];
+    UINavigationBarAppearance *appearance = [[UINavigationBarAppearance alloc] init];
+    appearance.backgroundColor = barColor;
+    [appearance setTitleTextAttributes:@{NSForegroundColorAttributeName: textColor}];
+    [appearance setShadowImage:[UIImage new]];
+    
     [[UINavigationBar appearance] setTintColor:buttonColor];
-    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:textColor}];
-    [[UINavigationBar appearance] setShadowImage:[UIImage new]];
-    //    [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setStandardAppearance: appearance];
+    [[UINavigationBar appearance] setScrollEdgeAppearance: appearance];
 }
 
 + (void)customizeNavigationBarWithBarColor:(UIColor *)barColor
@@ -434,14 +434,19 @@
                                   fontSize:(CGFloat)fontSize
                                buttonColor:(UIColor *)buttonColor {
     
-    [[UINavigationBar appearance] setBarTintColor:barColor];
-    [[UINavigationBar appearance] setTintColor:buttonColor];
-    [[UINavigationBar appearance] setShadowImage:[UIImage new]];
-    //    [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    UINavigationBarAppearance *appearance = [[UINavigationBarAppearance alloc] init];
+    appearance.backgroundColor = barColor;
     
     if ([UIFont fontWithName:fontName size:fontSize]) {
-        [[UINavigationBar appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName:textColor, NSFontAttributeName:[UIFont fontWithName:fontName size:fontSize] }];
+        [appearance setTitleTextAttributes:@{ NSForegroundColorAttributeName:textColor, NSFontAttributeName:[UIFont fontWithName:fontName size:fontSize] }];
+    } else {
+        [appearance setTitleTextAttributes:@{NSForegroundColorAttributeName: textColor}];
     }
+    [appearance setShadowImage:[UIImage new]];
+    
+    [[UINavigationBar appearance] setTintColor:buttonColor];
+    [[UINavigationBar appearance] setStandardAppearance: appearance];
+    [[UINavigationBar appearance] setScrollEdgeAppearance: appearance];
 }
 
 #pragma mark - UIPageControl
